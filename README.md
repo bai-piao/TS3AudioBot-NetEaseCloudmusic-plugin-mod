@@ -1,10 +1,12 @@
 # TS3AudioBot-NetEaseCloudmusic-plugin-DEV-mod
 
 > 此插件改自https://github.com/ZHANGTIANYAO1/TS3AudioBot-NetEaseCloudmusic-plugin
+> 基于源项目做了以下更改
+> 1.增加了对本地文件播放的支持，支持模糊搜索，支持遍历文件夹
+> 2.优化缓存及播放性能（可能吧
 > 此插件基于 Splamy/TS3AudioBot 项目 https://github.com/Splamy/TS3AudioBot  
 > 以及网易云音乐 API 开发https://github.com/Binaryify/NeteaseCloudMusicApi  
 > 此插件安装方法同样见 TS3AudioBot 项目 wiki  
-> **2.0 版本之后可以不需要本地部署网易云 API 了, 但是强烈建议自行部署防止隐私泄露 **  
 > **最好给音乐机器人超管权限保证能正常更新头像和描述**
 
 ## 关于设置文件 YunSettings.yml
@@ -27,7 +29,10 @@
 `Header` 请求头配置
 - `Cookie` 网易云Cookie
 - `User-Agent` 请求UA
-需要其他请求头可自行添加
+
+'LocalMusicPath' 本地音乐文件夹路径
+'SearchSubDirectories' 是否搜索子文件夹
+'MaxSearchResults' 最大结果数量
 
 ## 目前的指令：
 
