@@ -1,5 +1,6 @@
-# TS3AudioBot-NetEaseCloudmusic-plugin-DEV
+# TS3AudioBot-NetEaseCloudmusic-plugin-DEV-mod
 
+> 此插件改自https://github.com/ZHANGTIANYAO1/TS3AudioBot-NetEaseCloudmusic-plugin
 > 此插件基于 Splamy/TS3AudioBot 项目 https://github.com/Splamy/TS3AudioBot  
 > 以及网易云音乐 API 开发https://github.com/Binaryify/NeteaseCloudMusicApi  
 > 此插件安装方法同样见 TS3AudioBot 项目 wiki  
